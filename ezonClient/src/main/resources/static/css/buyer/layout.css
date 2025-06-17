@@ -1,0 +1,386 @@
+/*-- header 헤더 --*/
+.headerWrapper .innerContent {
+    max-width: 1140px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.headerWrapper .main{
+    padding: 16px 0;
+}
+.headerWrapper .main .logoArea{
+    height: 38px;
+    width: 185px;
+}
+.headerWrapper .main .logoArea a{
+    margin: 5px 0;
+    height: 38px;
+    width: 185px;
+    background: url(/img/logo.png) no-repeat center;
+    background-size: 185px;
+}
+.headerWrapper .util{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.headerWrapper .main{
+    display: flex;
+}
+.headerWrapper .main .buttonArea {
+    margin: 7px -12px 0 auto;
+    font-size: 0;
+    text-align: right;
+}
+.headerWrapper .buttonArea li a{
+    display: block;
+    width: 100%;
+    padding-top: 37px;
+    background-repeat: no-repeat;
+    background-size: 36px 36px;
+    background-position: center -1px;
+}
+.headerWrapper .buttonArea li .heart {
+    background-image: url(/img/icon_heart.svg);
+}
+.headerWrapper .buttonArea li .my {
+    background-image: url(/img/icon_my.svg);
+}
+.headerWrapper .buttonArea li .cart {
+    background-image: url(/img/icon_cart.svg);
+}
+.headerWrapper .main .buttonArea li {
+    position: relative;
+    display: inline-block;
+    width: 74px;
+    font-size: 13px;
+    line-height: 1.46;
+    letter-spacing: -.3px;
+    text-align: center;
+    color: #333;
+    vertical-align: top;
+}
+.headerWrapper .util .accountArea {
+    padding-top: 8px;
+    text-align: right;
+    font-size: 0
+}
+.headerWrapper .main.accountArea{
+    display: flex;
+}
+
+.headerWrapper .util .accountArea ul li{
+    display: inline-block;
+    margin-left: 18px;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: -.2px;
+    color: #757575;
+}
+/*검색*/
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  appearance: none;
+}
+.headerWrapper .searchAreaWrap {
+    margin-left: 57px;
+}
+.headerWrapper .main .searchArea {
+    width: 450px;
+    padding: 8px 43px 8px 20px;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ef2a23;
+    position: absolute;
+}
+.headerWrapper .main .searchArea input {
+    padding: 0 28px 0 0;
+    height: auto;
+    width: 100%;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: -.3px;
+    color: #333;
+    background-color: transparent;
+    border: none;
+    border-radius: 0
+}
+.headerWrapper .main .searchArea input:focus-visible {
+    outline:0;
+}
+.headerWrapper  .main .searchArea .btnSearchInner {
+    background-color: #ef2a23;
+    top: 8px;
+    right: 15px;
+    opacity: 1;
+    width: 28px;
+    height: 28px;
+    background-image: none;
+    position: absolute;
+    cursor: pointer;
+    border: none;
+    font-size: 0;
+}
+.headerWrapper  .main .searchArea .btnSearchInner:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url(/img/icon_search_mask.png) no-repeat center;
+    background-size: 28px;
+    z-index: 10
+}
+.headerWrapper .blind{
+    font-size: 0;
+}
+/* 카테고리 메뉴 */
+.headerWrapper .sub .category .menu {
+    position: relative;
+    display: inline-block;
+    width: 738px;
+    height: 50px;
+}
+.headerWrapper .sub{
+    border-top:1px solid #eee;
+    border-bottom:1px solid #eee;
+}
+.headerWrapper .sub .category .menu {
+    width: 738px
+}
+
+.headerWrapper .sub .category .menu .menuInner{
+    display: flex;
+}
+.headerWrapper .sub .category .menu .menuInner li{
+    cursor: pointer;
+    line-height: 50px;
+    margin-right: 30px;
+    position: relative;
+}
+.headerWrapper .sub .category .menu .menuInner li a span{
+    font-size: 16px;
+}
+.headerWrapper .sub .category .menu .menuInner .depth2{
+    position: absolute;
+    left: 0;
+    top: 50px;
+    border: 1px solid #ef2a23;
+    background: #fff;
+    z-index: 1000;
+}
+
+.headerWrapper .sub .category .menu .menuInner .depth2 ul li{
+    line-height: 40px;
+    margin-right: 0;
+    padding: 0 16px;
+    width: 120px;
+}
+.headerWrapper .sub .category .menu .menuInner .depth2 ul li a span{
+    font-size: 14px;
+}
+.headerWrapper .sub .category .menu .menuInner .depth2 ul li:hover{
+    color: #ef2a23;
+    font-weight: bold;
+}
+
+/*--- footer 푸터 ---*/
+#footer {
+    background-color: #f8f8f8;
+    text-align: center;
+    padding: 30px 0;
+}
+#footer .innerContent{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    padding-bottom: 30px;
+}
+#footer .logoArea {
+    width: 234px;
+    padding-top: 4px;
+}
+#footer .infoWrapper{
+    text-align: left;
+    display: flex;
+}
+#footer .company li, #footer p, #footer a {
+    font-size: 12px;
+    line-height: 1.58;
+    color: #757575;
+}
+#footer .company{
+    width: 384px;
+}
+#footer .logoArea{
+    height: 36px;
+    width: 155px;
+    background: url(/img/logo_footer.png);
+    margin-right: 30px;
+}
+
+/*--- mypage 마이페이지 ---*/
+
+.mypage_wrap{
+    padding: 30px 0 120px;
+    margin:0 auto ;
+    width: 1140px;
+    min-height: calc(100vh - 430px);
+    display: flex;
+    gap: 20px;
+}
+
+.mypage_wrap .pageTitle{
+    font-size: 32px;
+    text-align: left;
+    padding: 0 0 46px;
+}
+.mypage_wrap .lnbTitle{
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: -.04em;
+    color: #333;
+    font-weight: 700;
+}
+.mypage_wrap .lnbWrap{
+    width: 178px;
+}
+.mypage_wrap .lnbWrap>ul>li>ul>li{
+    margin-top: 10px;
+}
+.mypage_wrap .lnbWrap>ul>li{
+    padding-bottom: 28px;
+}
+.mypage_wrap .lnbWrap>ul>li + li{
+    border-top: 1px solid #eee;
+    padding-top: 28px;
+}
+.mypage_wrap .lnbWrap>ul>li>ul>li a {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 21px;
+    color: #757575;
+}
+.mypage_wrap .lnbWrap>ul>li>ul>li a:focus {
+	font-weight: 700;
+}
+.lnbWrap .customerInfo{
+    padding-top: 40px;
+}
+
+.lnbWrap .customerInfo {
+    border-top: 1px solid #333;
+    padding: 20px 0 23px 0
+}
+
+.lnbWrap .customerInfo .title {
+    font-size: 13px;
+    line-height: 19px;
+    font-weight: 700;
+    letter-spacing: -.024em;
+    color: #333
+}
+
+.lnbWrap .customerInfo .tell {
+    margin-top: 2px
+}
+
+.lnbWrap .customerInfo .tell span {
+    vertical-align: middle
+}
+
+.lnbWrap .customerInfo .tell .number {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #333
+}
+
+.lnbWrap .customerInfo .tell .charge {
+    display: inline-block;
+    margin-top: 8px;
+    margin-left: 2px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: -.21px
+}
+
+.lnbWrap .customerInfo .workingTime {
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing: -.02em;
+    color: #757575;
+    margin-top: 7px
+}
+.lnbWrap .adWrap a {
+    display: block;
+    line-height: 38px;
+    font-size: 13px;
+    letter-spacing: -.02em;
+    color: 3333;
+    border: 1px solid #ddd;
+    text-align: center;
+    border-radius: 6px;
+    margin-top: 13px
+}
+
+.lnbWrap .adWrap a+a {
+    margin-top: 8px
+}
+
+.memberInner{
+    padding: 34px 25px 26px;
+    width: 940px;
+    height: 160px;
+    background-color: #f8f8f8;
+    border-radius:14px;
+    margin-bottom: 20px;
+}
+.profileWrap{
+    display: flex;
+    align-content: center;
+    gap: 10px;
+}
+.profileWrap>button .faceWrap{
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+}
+.profileWrap .nicknameWrap {
+    display: inline-block;
+}
+.profileWrap .nickname a{
+    display: inline-block;
+    font-size: 26px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.profileWrap .nickname a:after {
+    position: relative;
+    left: -3px;
+    width: 22px;
+    height: 22px;
+    content: "";
+    display: inline-block;
+    background: url(/img/icon_next.svg) no-repeat 50%;
+    vertical-align: baseline;
+}
+/*--- content ---*/
+.content{
+    margin:0 auto ;
+    width: 1140px;
+    min-height: calc(100vh - 430px);
+}
+.content_wrap{
+	margin:0 auto ;
+    width: 1140px;
+    position: relative;
+}
+.mypage_wrap + .content {
+    position: absolute;
+    top: 0;
+    padding-left: 200px;
+    padding-top: 210px;
+}
