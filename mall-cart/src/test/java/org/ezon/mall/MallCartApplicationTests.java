@@ -1,4 +1,4 @@
-package org.jun.msa;
+package org.ezon.mall;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
